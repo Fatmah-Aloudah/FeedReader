@@ -42,10 +42,11 @@ $(function() {
          * and that the name is not empty.
          */
         it('AllFeeds have a Defined Names', function() {
-            for (var i = 0; i < allFeeds.length; i++) {
-                expect(allFeeds[i].name).toBeDefined();
-                expect(allFeeds[i].name).not.toBe("");
-            }
+            allFeeds.forEach(function(feed) {
+                expect(feed.name).toBeDefined();
+                expect(feed.name).not.toBe("");
+                // etc
+            });
         });
     });
 
@@ -87,6 +88,7 @@ $(function() {
         //Ensures loadFeed load at least one entry
         it('LoadFeed are populated.', function() {
             expect($feedResult[0]).toBeDefined();
+            expect($feedResult[0].length).toBeGreaterThan(0);
         });
     });
 
