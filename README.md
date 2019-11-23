@@ -10,7 +10,7 @@ This project is given by Udacity Front-End Web Developer Nano-Degree to practice
 4- Try it out.
 
 # Tests included in the project
-1- Tests that RSS feeds are present with names and urls and not empty.</br>
+1- Tests that RSS feeds are present with names and urls and that they are not empty.</br>
 2- Tests that Menu is (Showing / Hiding) when clicking menue icon.</br>
 3- Tests that at least one entry loads when feeds are loaded.</br>
 4- Tests when a new feed is loaded the content will change.
