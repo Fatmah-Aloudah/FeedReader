@@ -16,7 +16,7 @@ This project is given by Udacity Front-End Web Developer Nano-Degree to practice
 4- Tests when a new feed is loaded the content will change.
 
 # Demo
+https://fatmah-aloudah.github.io/FeedReader/.
 
-
-# Resouece
+# Resource
 https://jasmine.github.io/
