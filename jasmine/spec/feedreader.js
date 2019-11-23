@@ -87,8 +87,9 @@ $(function() {
 
         //Ensures loadFeed load at least one entry
         it('LoadFeed are populated.', function() {
-            expect($feedResult[0]).toBeDefined();
-            expect($feedResult[0].length).toBeGreaterThan(0);
+            expect($feedResult).toBeDefined();
+            expect($feedResult.length).toBeGreaterThan(0);
+        });
         });
     });
 
